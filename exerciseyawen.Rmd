@@ -1,9 +1,24 @@
 ---
-title: "exerciseyawen.Rmd"
-author: "Yawen Zhang"
-date: "5/7/2020"
-output: html_document
+title: "Reproducible and Collaborative Practices"
+subtitle: "Tutorial 7"
+author: "Your Name"
+institute: "Department of Econometrics and Business Statistics"
+output:
+pdf_document:
+toc: true
+toc_depth: 2
+number_sections: true
+highlight: tango
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center}
+\includegraphics[width=5in,height=13in]{figs/front.jpg}
+- \posttitle{\end{center}}
+- \usepackage{fontawesome}
+- \usepackage[most]{tcolorbox}
+- \usepackage{xcolor}
+- \usepackage{sectsty}
+- \sectionfont{\color{olive}}
+- \usepackage{verbatim}
 ---
-
-
 
