@@ -22,6 +22,16 @@ header-includes:
 - \usepackage{verbatim}
 ---
 
+\begin{itemize} \item ... \end{itemize}
+\begin{itemize}
+\item This is the first
+\item This is the second
+\end{itemize}
+The list below is equivalent to use - in markdown:
+\begin{enumerate}
+\item This is the first
+\item This is the second
+\end{enumerate}
 
 # This is a new section
 
